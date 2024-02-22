@@ -9,5 +9,7 @@
 2. Bootstrap Libraries.
 3. Fontawsome Icon.
 
+**Netlify** - Api Endpoint="https://mini-githublayout.netlify.app/"
+
 **Output**
 ![alt text](image.png)
