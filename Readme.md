@@ -1,7 +1,7 @@
 ## Github Layout project
 
 **Description**
-- This mini project is to create a responsive github layout
+- This mini project is to create a responsive eventUpdatePage
   Using Html,css,Bootstrap.
 
  **Softwares**
