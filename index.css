@@ -1,16 +1,11 @@
-.githubIcon {
-    font-size: 50px;
-    color: white;
+ body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
 }
-.primaryColor {
-    background-color: #2F3D46;
-}
-body
-{
-    background-color: #CAD2C5;
-    height: 100vh;
-}
-.secondaryColor
-{
-    background-color: #353535;
+img{
+    
+   width: 100%;
+ height: auto;
+ background-size: contain;
 }
