@@ -1,0 +1,109 @@
+body{
+   background-color: black;
+}
+.form-container
+{
+    margin:2% auto 0;
+    color: white;
+   width: 30%;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px lightgray inset;
+  background-image: url(./45259.png);
+}
+table{
+    background-image: url(./45551.png);
+    max-width: fit-content;
+}
+.form-container input{
+    padding: 5px;
+    margin: 5px;
+}
+ label{
+    text-align: right;
+}
+@media(max-width:450px)
+{
+    .form-container{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+   th,tr,td
+    {
+        display: block;
+    }
+}
+
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1rem;
+}
+th{
+    padding: 1rem;
+}
+.table-div
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+label{
+    display:inline-block;
+    width: 100px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+input{
+   border-radius: 10px;
+   background-color: rgba(46, 139, 87,0.3);
+}
+.option
+{
+display: inline-block;
+width: 150px;
+padding: 10px;
+font-size: 1rem;
+font-weight: bold;
+border-radius: 10px;
+}
+textarea{
+    border-radius: 5px;
+}
+tr{
+    padding: 10px;
+}
+table tr:nth-child(even)
+{
+    background-color: lightgray;
+}
+.choice
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btn{
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+button{
+    font-size: 1rem;
+    background-color: orange;
+}
+button:hover{
+    color: blueviolet;
+}
+
+h1{
+    color: white;
+}
