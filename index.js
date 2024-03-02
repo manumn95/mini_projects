@@ -190,14 +190,22 @@ document.addEventListener('keydown', (event) => {
         result.value+= '.';
         result.style.color='white';
     }
+    else if(event.key == "Backspace") {
+        let val = result.value;
+        result.value = val.substr(0,val.length-1);
+    }
+    
     else if(event.key == "Enter") {
         //result.value= eval(result.value);
-        history.value+=result.value+'='+ eval(result.value)+'\n';
-        result.value=eval(result.value);
+       let val=eval(result.value);
+       result.value = val;
+        history.value+=result.value+'='+ val+'\n';
+       
+    }
+
+    else{
+        alert('please enter only numbers form keyboard');
     }
    
-   else{
-    alert('Please enter only numbers from the keyboard');
-   }
 });
 
