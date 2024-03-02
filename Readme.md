@@ -15,5 +15,6 @@
 - Bootstrap
 - Javascript
 
+- Netlify="https://mini-calc-project.netlify.app"
 ## Outputs:
 ![alt text](image.png)
