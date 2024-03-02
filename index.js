@@ -197,9 +197,14 @@ document.addEventListener('keydown', (event) => {
     
     else if(event.key == "Enter") {
         //result.value= eval(result.value);
-       let val=eval(result.value);
-       result.value = val;
-        history.value+=result.value+'='+ val+'\n';
+
+        if(result.value)
+        {
+            let val=eval(result.value);
+      
+            history.value+=result.value+'='+ val+'\n';
+            result.value = val;
+        }
        
     }
 
