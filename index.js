@@ -196,6 +196,8 @@ document.addEventListener('keydown', (event) => {
         result.value=eval(result.value);
     }
    
-   
+   else{
+    alert('Please enter only numbers from the keyboard');
+   }
 });
 
