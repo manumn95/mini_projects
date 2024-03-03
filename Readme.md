@@ -15,5 +15,7 @@
 - Pass necessary details to open weather API to fetch weather information.
 - Use Bootstrap Card to display details.
 
+Netlify="https://countries-weather-project.netlify.app"
+
 ## Output:
 ![alt text](image.png)
