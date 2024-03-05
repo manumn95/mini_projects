@@ -1,8 +1,12 @@
-ul{
-   list-style: none;
-   background-color: transparent;
+ul {
+  list-style: none;
+  background-color: transparent;
 }
-.weather li
-{
-    color:brown;
+.weather li {
+  color: brown;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
 }
