@@ -6,5 +6,7 @@
 - CSS
 - Javascript
 - vscode
+
+**Netlify**="https://mini-project-weather-app1.netlify.app/"
 ** Output**
 ![alt text](image.png)
