@@ -3,7 +3,7 @@
 **Description**
 
 - This mini project get the currency exchange rate using exchange api
-  **Api used**
+  **Api-used**
   currentExchange='https://app.exchangerate-api.com'
 
 ## Constraints
