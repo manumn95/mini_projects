@@ -14,6 +14,8 @@
 - vscode
   -fetch api
 
+## Netlify:- 'https://currency-converter-mini-project.netlify.app'
+
 **Output**
 -Desktop view
 ![alt text](image.png)
