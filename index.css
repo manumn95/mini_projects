@@ -1,0 +1,145 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 65.5%;
+}
+::selection {
+  background-color: purple;
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./Images/currency_background.jpg");
+  background-size: cover;
+}
+.wrapper {
+  width: 40.7rem;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(-255, -255, -255, 0.3)
+    ),
+    url("./Images/currency2.jpg");
+  background-size: cover;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0.7rem 0.7rem 0.7rem solid rgba(0, 0, 0, 0.2);
+}
+.wrapper header {
+  font-size: 2.2rem;
+  font-weight: 50rem;
+  text-align: center;
+  font-family: cursive;
+  font-weight: 800;
+}
+.wrapper form {
+  margin: 4rem 0 2rem 0;
+}
+.wrapper form input,
+.wrapper form select,
+.wrapper form button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 5px;
+}
+.wrapper form p {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.wrapper form input {
+  height: 5rem;
+  padding: 0 1.5rem;
+  border: 1px solid#999;
+  font-size: 1.7rem;
+}
+.wrapper form input:focus {
+  border: 2px solid purple;
+  padding: 0 1.4rem;
+}
+.wrapper form .drop-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.wrapper form .drop-list .select-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.5rem;
+  height: 4.5rem;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+.wrapper form .drop-list .select-box select::-webkit-scrollbar {
+  width: 0.8remrem;
+}
+.wrapper form .drop-list .select-box select::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.wrapper form .drop-list .select-box select::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+  border-right: 0.2rem solid #fff;
+}
+.wrapper form .drop-list .icon {
+  font-size: 2.2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.wrapper form .drop-list .select-box img {
+  max-width: 2.1rem;
+}
+.wrapper form .drop-list .select-box select {
+  width: auto;
+  font-size: 1.6rem;
+  background: none;
+  margin: 0 -0.5rem 0 0.5rem;
+}
+.wrapper form .exchange_rate {
+  font-size: 1.8rem;
+  margin: 2rem 0 3rem;
+  color: rgba(255, 215, 0, 0.5);
+}
+.wrapper form button {
+  height: 5.2rem;
+  background-color: purple;
+  color: white;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.wrapper form button:hover {
+  background-color: transparent;
+  color: purple;
+  border: 2px solid purple;
+}
+.wrapper form option {
+  font-size: 1.5rem;
+  color: black;
+}
+.wrapper form select {
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 650px) {
+  body {
+    flex-direction: start;
+    background: none;
+    margin-top: 1rem;
+  }
+  .wrapper {
+    height: 100vh;
+  }
+  .wrapper header {
+    color: orange;
+  }
+}
