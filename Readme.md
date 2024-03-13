@@ -12,5 +12,7 @@ Created an Url shortner website using url shortner api.
 
 ## Api end-point:'https://ulvis.net/developer.html'
 
+## Netlify:'https://url-shortner-mini-project.netlify.app'
+
 ## Output:
 ![alt text](image.png)
