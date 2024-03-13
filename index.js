@@ -6,7 +6,7 @@ let shorturl = document.getElementById("shorturl");
 async function short(e) {
   e.preventDefault();
   const result = await fetch(
-    `https://ulvis.net/API/write/get?url=https://${longurl.value}`
+    `https://ulvis.net/API/write/get?url=${longurl.value}`
   );
   let response = await result.json();
   shorturl.value = response.data.url;
