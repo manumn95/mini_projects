@@ -12,6 +12,8 @@
 - vs code
   **Endpoint:-**'https://api.gameofthronesquotes.xyz/v1/random'
 
+  ## Netlify:'https://random-quotes-generator-project.netlify.app'
+
 ## Desktop View
 
 ![alt text](image.png)
